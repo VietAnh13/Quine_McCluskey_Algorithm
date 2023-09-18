@@ -610,3 +610,32 @@ int main()
 	system("pause");
 	return 0;
 }
+
+/*
+# Case test SOP:
+Enter the number of variables: 4
+Max minterms = 16
+Enter minterms f(a,b,c,d): 1-8,13
+Have don't care ? (Yes(1) or No(0)): 1
+Enter don't care: 9,12,15
+
+# Copy here
+4
+1-8,13
+1
+9,12,15
+
+
+# Case test POS:
+Enter the number of variables: 5
+Max minterms = 32
+Enter maxterms f(a,b,c,d,e): 0,1,2,4-12,14,16,19,20,21,23,25,26,30
+Have don't care ? (Yes(1) or No(0)): 1
+Enter don't care: 15,24,27,31
+
+# Copy here
+5
+0,1,2,4-12,14,16,19,20,21,23,25,26,30
+1
+15,24,27,31
+*/
